@@ -101,10 +101,14 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+ALLOWED_HOSTS = ['sislistagemdetreinos-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = [
+    "https://sislistagemdetreinos-production.up.railway.app",
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
-ALLOWED_HOSTS = ['sislistagemdetreinos-production.up.railway.app']
+
 
 LANGUAGE_CODE = 'en-us'
 
