@@ -100,13 +100,13 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-"""(para o sistema em produção)
+#(para o sistema em produção)
 
-ALLOWED_HOSTS = ['sislistagemdetreinos-production.up.railway.app']
+ALLOWED_HOSTS = ['sistema-treinos-de-savio.up.railway.app']
 CSRF_TRUSTED_ORIGINS = [
-    "https://sislistagemdetreinos-production.up.railway.app",
+    "https://sistema-treinos-de-savio.up.railway.app",
 ]
-"""
+
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
