@@ -101,6 +101,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+
 #(para o sistema em produção)
 ALLOWED_HOSTS = ['sistema-treinos-de-savio.up.railway.app']
 CSRF_TRUSTED_ORIGINS = [
